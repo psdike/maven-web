@@ -137,8 +137,8 @@ footer a {
 	<!-- <span class="pro">PRO</span> -->
 	<img class="round" src="https://github.com/psdike/maven-web/blob/master/psd.jpg?raw=true" alt="user" />
 	<h3>Purushottam Dike</h3>
-	<h6>Aurangabad</h6>
-	<p>Freelance DevOps @ EcoLife and <br/> Flutter Developer</p>
+	<h6>Pune</h6>
+	<p>Freelance DevOps @ EcoLife <br/> and <br/> Flutter Developer</p>
 	<div class="buttons">
 		<button class="primary" onclick='window.location="https://www.linkedin.com/in/purushottam-dike/"'>
 			LinkedIn
@@ -156,8 +156,8 @@ footer a {
 			<li>Ansible</li>
 			<li>Jenkins</li>
 			<li>Git</li>
-			<li>Chef</li>
-			<li>Linux</li>
+			<li>GitHub</li>
+			<li>Linux RHCE</li>
 			<li>Flutter</li>
 		</ul>
 	</div>
