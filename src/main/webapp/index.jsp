@@ -135,10 +135,10 @@ footer a {
 
 <div class="card-container">
 	<!-- <span class="pro">PRO</span> -->
-	<img class="round" src="https://media-exp1.licdn.com/dms/image/C5603AQEzaItaxdWi8w/profile-displayphoto-shrink_200_200/0/1661241200866?e=1666828800&v=beta&t=wJRU9ds-b3AyR6KNAvaZ4rdI9mX3ZbJF9CkGVxOh_wU" alt="user" />
+	<img class="round" src="https://github.com/psdike/maven-web/blob/master/psd.jpg?raw=true" alt="user" />
 	<h3>Purushottam Dike</h3>
 	<h6>Aurangabad</h6>
-	<p>DevOps @ EcoLife Engineers and <br/> Freelance Flutter Developer</p>
+	<p>Freelance DevOps @ EcoLife and <br/> Flutter Developer</p>
 	<div class="buttons">
 		<button class="primary" onclick='window.location="https://www.linkedin.com/in/purushottam-dike/"'>
 			LinkedIn
