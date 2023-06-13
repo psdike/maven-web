@@ -6,6 +6,6 @@ COPY maven-web/src /home/app/src
 COPY maven-web/pom.xml /home/app
 RUN mvn -f /home/app/pom.xml clean package
 #RUN "ls -R /home/"
-COPY /home/app/target/maven-web-1.0-SNAPSHOT.war /usr/local/lib/demo.war
+COPY /home/app/target/maven-web.war /usr/local/lib/demo.war
 EXPOSE 80
 ENTRYPOINT ["java","-jar","/usr/local/lib/demo.war"]
