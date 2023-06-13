@@ -11,7 +11,7 @@ pipeline {
         stage('create image') {
             steps {
                 
-                sh 'docker build -t psdike/mvn:v1 maven-web/Dockerfile .'
+                sh 'docker build -t psdike/mvn:v1 .'
                 sh 'ls -la'
             }
         }
