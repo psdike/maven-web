@@ -11,14 +11,14 @@ pipeline {
         stage('create image') {
             steps {
                 
-                sh 'docker build -t psdike/mvn:v1 .'
+                sh 'docker build -t maven .'
                 sh 'ls -la'
             }
         }
         stage('creating container') {
             steps {
                 
-                sh 'docker run -p 80:80 psdike/mvn:v1'
+                sh 'docker run -p 80:80 maven'
                 
             }
         }
