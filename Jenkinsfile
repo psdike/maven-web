@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                sh 'git clone https://github.com/psdike/maven-web.git'
+                sh ''https://github.com/soumyabagali/maven-web.git
                 sh 'ls -la'
             }
         }
@@ -25,7 +25,7 @@ pipeline {
         stage('running container') {
             steps {
                 
-                sh 'check running container here http://172.16.86.134'
+                sh 'check running container here http://3.112.241.188
                 
             }
         }
