@@ -2,6 +2,7 @@ FROM maven:3.8.6-openjdk-11 AS build
 COPY maven-web/src /home/app/src
 COPY maven-web/pom.xml /home/app
 RUN mvn -f /home/app/pom.xml clean package
+RUN chown -R www-data /home/app/src
 
 FROM tomcat:9.0.52-jdk11-openjdk-slim
 COPY --from=build /home/app/target/maven-web.war /usr/local/tomcat/webapps/demo.war
